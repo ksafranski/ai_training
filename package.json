@@ -1,0 +1,31 @@
+{
+  "name": "harvest-bot",
+  "version": "1.0.0",
+  "main": "./src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "train": "ts-node ./src/index.ts train",
+    "prompt": "ts-node ./src/index.ts prompt"
+  },
+  "dependencies": {
+    "@langchain/community": "^0.0.26",
+    "@langchain/core": "^0.1.25",
+    "@langchain/openai": "^0.0.14",
+    "@langchain/pinecone": "^0.0.3",
+    "@pinecone-database/pinecone": "^2.0.1",
+    "epub2": "^3.0.2",
+    "html-to-text": "^9.0.5",
+    "langchain": "^0.1.12",
+    "openai": "^4.26.0",
+    "ora": "^3.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.10",
+    "@types/ora": "^3.2.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=17.0.0"
+  }
+}
